@@ -1,0 +1,536 @@
+@font-face{
+    font-family: Lucida-Sans-Italic;
+    src: url("assets/fonts/911Fonts.com_LucidaSansItalic__-_911fonts.com_fonts_lGyV.ttf");
+}
+@font-face{
+    font-family: SegoeWP;
+    src: url("assets/fonts/ofont.ru_Segoe WP.ttf");
+}
+@font-face {
+    font-family: 'Segoe UI Light';
+    src: url('SegoeUI-Light.eot');
+    src: url('SegoeUI-Light.eot?#iefix') format('embedded-opentype'),
+    url('SegoeUI-Light.woff') format('woff'),
+    url('SegoeUI-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: PTSans-Regular;
+    src: url("assets/fonts/2221.ttf");
+}
+@font-face{
+    font-family: Segoe-UI-Bold;
+    src: url("assets/fonts/10391.ttf");
+}
+@font-face {
+    font-family: 'Segoe UI Regular';
+    src: url('SegoeUI.eot');
+    src: url('SegoeUI.eot?#iefix') format('embedded-opentype'),
+    url('SegoeUI.woff') format('woff'),
+    url('SegoeUI.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face{
+    font-family: PTSans-NarrowBold;
+    src: url("assets/fonts/2220.ttf");
+}
+body{
+    width: 1300px;
+    height: 1840px;
+    margin: auto;
+}
+.header-background-img{
+    position: relative;
+    z-index: 0;
+}
+header, main{
+    position: relative;
+    z-index: 10;
+    top: -1136px;
+}
+a{
+    text-decoration: none;
+}
+
+header h1{
+    font-family: Lucida-Sans-Italic;
+    color: #FFFFFF;
+    margin-top: 0px;
+    margin-top: 60px;
+}
+.nav li{
+    list-style: none;
+    display: block;
+}
+.header-flex-container{
+    display: inline-flex;
+    max-height: 165px;
+}
+.shape-8-1{
+    display: block;
+    position: relative;
+    z-index: 1;
+    opacity: 0.5;
+}
+.shape-8-2{
+    display: block;
+    position: relative;
+    z-index: 5;
+    transform: rotate(45deg);
+    top: -81px;
+}
+header .shape-8{
+    margin-left: 140px;
+    margin-top: 28px;
+    padding-bottom: 0px;
+}
+.rectangle{
+    position: relative;
+    display: block;
+}
+
+.rectangle-2{
+    top: -38px;
+    left: 6px;
+}
+.rectangle-3{
+    top: -73px;
+    left: 12px;
+}
+.rectangle-1 , .rectangle-2{
+    opacity: 0.27058823529411763;
+}
+.nav{
+    position: absolute;
+}
+.separator{
+    opacity: 0.10196078431372549;
+}
+.nav p{
+    color: #9B7D08;
+    font-family: SegoeWP;
+}
+.content, .separator{
+    position: absolute;
+}
+.about-us{
+    top: -130px;
+}
+.content-1{
+    left: 51px;
+    top: -106px;
+}
+.content-2{
+    width: 81px;
+    height: 14px;
+    left:80px;
+    top:-120px;
+}
+.separator-1{
+    left:174px;
+    top:-116px;
+}
+.content-3{
+    left:189px;
+    top:-106px;
+}
+.content-4{
+    height: 14px;
+    width: 72px;
+    left: 218px;
+    top:-120px;
+}
+.separator-2{
+    left: 308px;
+    top:-116px;
+}
+.content-5{
+    left: 326px;
+    top:-106px;
+}
+.content-6{
+    left: 354px;
+    top:-120px;
+}
+.nav-on-three-rectangles{
+    padding-left: 245px;
+    padding-top: 63px;
+}
+.button-1:hover, .button-2:hover, .button-3:hover{
+    opacity: 0.3;
+}
+.button-left-background, .button-left-arrow,
+ .button-right-background, .button-right-arrow,
+  .play-button-small-triangle, .play-button-big-triangle{
+    position: relative;
+}
+
+.button-left-arrow, .button-right-arrow{
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 58%;
+   margin-bottom: 58%;
+}
+
+.play-button-big-background{
+    opacity: 0.7215686274509804;
+}
+.play-button-small-background{
+    opacity: 0.3686274509803922;
+}
+.play-button-small-triangle{
+    opacity: 0.3686274509803922;
+    left: -22px;
+    top:-5px;
+}
+.play-button-big-triangle{
+    left:-39px;
+    top:-16px;
+}
+.main-display{
+    opacity: 0.10980392156862745;
+}
+.the-cool-the-minimal{
+    height: 121px;
+    width: 392px;
+    font-size: 1.85em;
+    text-align: center;
+    font-family: 'Asap', sans-serif;
+    color: #FFFFFF;
+    font-weight: 100;
+}
+.the-cool-the-minimal h1{
+    margin-top: -12px;
+    margin-bottom: 0px;
+}
+.the-cool-the-minimal span{
+    color: #F5C506;
+}
+.play-button-big, .play-button-small, .progress-bar-1,.progress-bar-2, .sound{
+    position: relative;
+}
+.play-button-big{
+    top:-201px;
+    left: 241px;
+}
+.progress-bar-1{
+    top: -187px;
+    left:80px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    height: 12px;
+    width: 179px;
+}
+.progress-bar-2{
+    top: -187px;
+    left:76px;
+    opacity: 0.3;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+    height: 12px;
+    width: 225px;
+}
+.play-button-small{
+    top: -119px;
+    left: 29px;
+}
+.sound{
+    top:-224px;
+    left: 515px;
+}
+
+.slider-flex-container{
+    max-height: 327px;
+    display: flex;
+    justify-content: space-between;
+}
+.button-left, .button-right{
+    height: 58px;
+    width:33px;
+    background-color: rgba(245, 197, 6, 0.7098039215686275 );
+    padding: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    max-width: 33px;
+    max-height: 58px;
+}
+.player{
+    padding-left: 99px;
+}
+.the-cool-the-minimal{
+    padding-top:100px;
+    padding-left:47px;
+}
+.advantages{
+    margin-top:71px;
+    background-color: rgb(234, 234, 234);
+    display: flex;
+    justify-content: space-between;
+}
+.advantages-border{
+    width:139px;
+    height: 212px;
+    
+}
+.advantages p{
+    font-family: 'Segoe UI Light', sans-serif;
+    font-size: 27px;
+    font-weight: 100;
+}
+.better-design, .its-free{
+    border-left: 1px solid rgba(0, 0 , 0, 0.1411764705882353) ;
+    border-right: 1px solid rgba(0, 0 , 0, 0.1411764705882353) ;
+}
+.advantages .better-design, .advantages .customise , .advantages .its-free{
+    width: 340px;
+}
+ .advantages img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto 
+}
+.advantages p {
+    text-align: center;
+}
+.better-design{
+    padding-top: 45px;
+}
+.customise{
+    padding-top: 27px;
+}
+.its-free{
+    padding-top: 40px;
+}
+.social{
+    width: 1300px;
+    background-color: rgb(245, 197, 6);
+}
+
+.social h1{
+    padding-left: 143px;
+    font-size: 37px;
+    font-family: PTSans-Regular ,sans-serif;
+    color: #FFFFFF;
+    margin-top: 0;
+    padding-top: 21px;
+}
+.social-flex-container{
+    display: flex;
+    justify-content: center;
+}
+.element-1 p{
+    font-family: SegoeWP;
+    font-size: 29px;
+    color: #FFFFFF;
+    text-align: left;
+    position: relative;
+    top: -220px;
+    margin-top: 0px;
+    left: 16px;
+}
+.element-1 .plus{
+    position: relative;
+    opacity: 0.7019607843137254;
+    top:-250px;
+    left: 316px;
+}
+.element-1{
+    max-width: 341px;
+    max-height: 233px;
+}
+.play .button, .play .background, .element-2 .play{
+    position: relative;
+} 
+.play .button{
+    top:-51px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.element-2{
+    height: 233px;
+    width:315px;
+    overflow: hidden;
+}
+.player{
+    padding-left:0;
+    margin-left: -35px;
+}
+.element-2 .play{
+    display: block;
+    max-width: 62px;
+    max-height: 62px;
+    margin-left: auto;
+    margin-right: auto;
+    top: -143px;
+}
+.element-3 p{
+    font-family: SegoeWP, sans-serif;
+    font-size: 25px;
+    margin: 0;
+    line-height:18px;
+    color: #FFFFFF;
+    width: 24px;
+    position: relative;
+    top:-218px;
+    left: 286px;
+}
+
+.element-3 .twitter{
+    position: relative;
+    top:-196px;
+    left: 83px;
+}
+.element-3 .plus{
+    position: relative;
+    top:-169px;
+    left: 141px;
+}
+.element-3{
+    margin-left: 34px;
+    max-height: 233px;
+}
+.date{
+    max-width: 113px;
+    max-height: 86px;
+    margin-left: 141px;
+}
+.date .day{
+    font-family: Segoe-UI-Bold, sans-serif;
+    color: #FFFFFF;
+    font-size: 38px;
+    position: relative;
+    margin: 0;
+    line-height: 38px;
+    text-align: center;
+    top:-81px;
+}
+.date .month{
+    position: relative;
+    font-size: 15px;
+    font-family: 'Segoe UI Regular', sans-serif;
+    color: #B26529;
+    text-align: center;
+    top:-80px;
+}
+.progress-bar{
+    margin-top: 43px;
+    max-width: 919px;
+    max-height: 16px;
+    padding-bottom: 21px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.progress-bar .background{
+    margin-left: 22px;
+}
+.progress-bar .pointer{
+    position: relative;
+    left: 269px;
+    top:-20px;
+}
+
+.adaptivity{
+    height: 499px;
+    width: 1300px;
+    background-color: rgb(57, 57, 57);
+}
+.adaptivity-flex-container{
+    display: flex;
+}
+.adaptivity h1{
+    width: 442px;
+    font-size: 32px;
+    color: #F5C506;
+    font-family: PTSans-Regular;
+    line-height: 31px;
+    padding-top:49px;
+    padding-left: 7px;
+    margin-top: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.computer-label .computer, .computer-label .label, .computer-label p{
+    position: relative;
+}
+.computer-label{
+    max-width: 343px;
+}
+.computer-label .label{
+    z-index: 5;
+}
+.computer-label .computer{
+    top:-77px;
+    left: 20px;
+}
+.computer-label p {
+    z-index: 10;
+    top:-330px;
+    font-family: PTSans-NarrowBold;
+    height: 14px;
+    width: 104px;
+    color: #FFFFFF;
+    left: 7px;
+    margin-top: 0;
+}
+.ipad{
+    margin-top: 85px;
+}
+.phone{
+    margin-top: 196px;
+}
+.list li{
+    font-family: PTSans-Regular;
+    font-size: 22px;
+    padding-bottom: 14px;
+    color: #A9A9A7;
+}
+.list ul{
+    list-style-image: url("assets/images/Ellipse 4@1X.png");
+    margin-top: 89px;
+    margin-bottom: 0px;
+}
+
+.adaptivity-flex-container .computer-label{
+    margin-left: 138px;
+    max-height: 390px;
+}
+.adaptivity-flex-container .ipad{
+    margin-left: 24px;
+}
+.adaptivity-flex-container .phone{
+    margin-left: 25px;
+}
+.adaptivity-flex-container .list{
+    margin-left: 62px;
+}
+footer{
+    position: relative;
+    top: -1136px;    
+}
+footer .shape-8-1, footer .shape-8-2{
+    max-height: 52px;
+    max-width: 52px;
+}
+footer .shape-8-2{
+    top: -52px;
+}
+footer .shape-8{
+    position: relative;
+    top:-61px;
+    left: 140px;
+}
+footer h1{
+    font-family: Lucida-Sans-Italic;
+    color: #FFFFFF;
+    font-size: 29px;
+    position: relative;
+    top:-175px;
+    left:200px;
+}
